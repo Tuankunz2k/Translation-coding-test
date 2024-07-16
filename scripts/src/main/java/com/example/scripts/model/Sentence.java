@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Sentence {
-    private long sentenceId;
+    private Integer sentenceId;
     private String lang;
     private String text;
 }

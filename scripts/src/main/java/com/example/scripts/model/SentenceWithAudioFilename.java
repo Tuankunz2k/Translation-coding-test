@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SentenceWithAudioFilename {
-    private long sentenceId;
+    private Integer sentenceId;
     private String userName;
     private String license;
     private String attributionUrl;

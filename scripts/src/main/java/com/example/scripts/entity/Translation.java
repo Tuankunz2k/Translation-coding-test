@@ -13,9 +13,9 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Translation {
     @Id
-    private Long id;
+    private Integer id;
     private String text;
     private String audioUrl;
-    private Long translateId;
+    private Integer translateId;
     private String translateText;
 }

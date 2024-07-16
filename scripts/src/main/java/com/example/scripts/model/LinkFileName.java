@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LinkFileName {
-    private long sentenceId;
-    private long translationId;
+    private Integer sentenceId;
+    private Integer translationId;
 }
