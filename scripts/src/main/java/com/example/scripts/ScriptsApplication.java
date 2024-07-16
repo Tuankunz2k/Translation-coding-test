@@ -22,7 +22,7 @@ public class ScriptsApplication {
     }
 
     @PostConstruct
-    public void init() throws IOException {
+    public void init() {
         importDatabaseService.importData();
     }
 }
